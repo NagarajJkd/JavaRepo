@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Open Browser]]>
+    </line>
+    <line>
+      <![CDATA[Log In To ZOHO CRM]]>
+    </line>
+    <line>
+      <![CDATA[Create Campaign]]>
+    </line>
+    <line>
+      <![CDATA[LogOut From ZOHO CRM]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Open Browser]]>
+    </line>
+    <line>
+      <![CDATA[Log In To ZOHO CRM]]>
+    </line>
+    <line>
+      <![CDATA[Create lead]]>
+    </line>
+    <line>
+      <![CDATA[LogOut From ZOHO CRM]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24164" started-at="2022-11-27T14:38:33 IST" finished-at="2022-11-27T14:38:57 IST">
+    <groups>
+    </groups>
+    <test name="Test01" duration-ms="13368" started-at="2022-11-27T14:38:33 IST" finished-at="2022-11-27T14:38:46 IST">
+      <class name="com.zoho.testscript.CreateCampaignModul">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.zoho.testscript.CreateCampaignModul@25af5db5]" name="openBrowser" is-config="true" duration-ms="5594" started-at="2022-11-27T14:38:33 IST" finished-at="2022-11-27T14:38:38 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Open Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:com.zoho.testscript.CreateCampaignModul@25af5db5]" name="logIn" is-config="true" duration-ms="1041" started-at="2022-11-27T14:38:38 IST" finished-at="2022-11-27T14:38:39 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Log In To ZOHO CRM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="createCampaig()[pri:0, instance:com.zoho.testscript.CreateCampaignModul@25af5db5]" name="createCampaig" duration-ms="6235" started-at="2022-11-27T14:38:39 IST" finished-at="2022-11-27T14:38:46 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Create Campaign]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCampaig -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:com.zoho.testscript.CreateCampaignModul@25af5db5]" name="logOut" is-config="true" duration-ms="330" started-at="2022-11-27T14:38:46 IST" finished-at="2022-11-27T14:38:46 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[LogOut From ZOHO CRM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.zoho.testscript.CreateCampaignModul@25af5db5]" name="closeBrowser" is-config="true" duration-ms="107" started-at="2022-11-27T14:38:46 IST" finished-at="2022-11-27T14:38:46 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.zoho.testscript.CreateCampaignModul -->
+    </test> <!-- Test01 -->
+    <test name="Test02" duration-ms="10761" started-at="2022-11-27T14:38:46 IST" finished-at="2022-11-27T14:38:57 IST">
+      <class name="com.zoho.testscript.LeadModule">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.zoho.testscript.LeadModule@3ecd23d9]" name="openBrowser" is-config="true" duration-ms="4083" started-at="2022-11-27T14:38:46 IST" finished-at="2022-11-27T14:38:50 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Open Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:com.zoho.testscript.LeadModule@3ecd23d9]" name="logIn" is-config="true" duration-ms="1777" started-at="2022-11-27T14:38:50 IST" finished-at="2022-11-27T14:38:52 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Log In To ZOHO CRM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="testcreateLead()[pri:0, instance:com.zoho.testscript.LeadModule@3ecd23d9]" name="testcreateLead" duration-ms="4586" started-at="2022-11-27T14:38:52 IST" finished-at="2022-11-27T14:38:57 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Create lead]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcreateLead -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:com.zoho.testscript.LeadModule@3ecd23d9]" name="logOut" is-config="true" duration-ms="232" started-at="2022-11-27T14:38:57 IST" finished-at="2022-11-27T14:38:57 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[LogOut From ZOHO CRM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.zoho.testscript.LeadModule@3ecd23d9]" name="closeBrowser" is-config="true" duration-ms="76" started-at="2022-11-27T14:38:57 IST" finished-at="2022-11-27T14:38:57 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.zoho.testscript.LeadModule -->
+    </test> <!-- Test02 -->
+  </suite> <!-- Suite -->
+</testng-results>
