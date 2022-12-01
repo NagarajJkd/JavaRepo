@@ -1,0 +1,8 @@
+url https://demo.actitime.com/login.do
+username admin
+password manager
+
+zurl http://192.168.72.128:8080/crm/HomePage.do
+zusername rashmi@dell.com
+zpassword 123456
+description We have a done a good campaign and we got maximum customers

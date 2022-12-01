@@ -1,17 +1,17 @@
 package com.zoho.testscript;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import java.util.Set;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Reporter;
-import org.testng.annotations.Test;
 import com.zoho.generic.Baseclass;
 import com.zoho.pom.CreateLead;
 import com.zoho.pom.DisplayingCustomViewDetails;
 import com.zoho.pom.HomePage;
-
+@Listeners(com.zoho.generic.ListenerImplimentation.class)
 public class LeadModule extends Baseclass {
 
 	@Test

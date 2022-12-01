@@ -15,7 +15,7 @@ public class Library {
 			
 					FileInputStream fis=new FileInputStream("./data/commondata.property");
 					Properties p=new Properties();
-					p.load(fis);
+				p.load(fis);
 					String data = p.getProperty(key);
 					return data;
 	}

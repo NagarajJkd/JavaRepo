@@ -1,5 +1,6 @@
 package com.zoho.testscript;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
@@ -9,7 +10,7 @@ import com.zoho.generic.Baseclass;
 import com.zoho.pom.CreateCampaign01;
 import com.zoho.pom.DisplayingCustomViewDetails;
 import com.zoho.pom.HomePage;
-
+@Listeners(com.zoho.generic.ListenerImplimentation.class)
 public class CreateCampaignModul extends Baseclass {
 	@Test
 	public void createCampaig() throws InterruptedException{
